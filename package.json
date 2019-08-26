@@ -1,7 +1,7 @@
 {
   "name": "@ssttevee/u8-utils",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Miscellaneous functions for working with Uint8Arrays",
   "main": "lib/index.js",
   "files": [
@@ -14,7 +14,13 @@
     "type": "git",
     "url": "git+https://github.com/ssttevee/js-uint8array-utils"
   },
-  "keywords": [],
+  "keywords": [
+    "esm",
+    "uint8array",
+    "u8",
+    "merge",
+    "string"
+  ],
   "author": "ssttevee",
   "license": "MIT",
   "devDependencies": {
