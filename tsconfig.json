@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": [
+            "esnext",
+        ],
+        "outDir": "lib/",
+        "declaration": true,
+        "sourceMap": true,
+        "strict": true,
+    },
+    "include": [
+        "src/**/*",
+    ],
+}

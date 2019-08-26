@@ -1,0 +1,23 @@
+{
+  "name": "@ssttevee/u8-utils",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Miscellaneous functions for working with Uint8Arrays",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssttevee/js-uint8array-utils"
+  },
+  "keywords": [],
+  "author": "ssttevee",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
