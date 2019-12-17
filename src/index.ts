@@ -4,7 +4,7 @@ export function stringToArray(s: string): Uint8Array {
 }
 
 export function arrayToString(a: Uint8Array): string {
-    const utf8 = Array.from(a, (c) => String.fromCharCode(c)).join('');
+    const utf8 = String.fromCharCode.apply(null, a as unknown as number[]);
     return decodeURIComponent(escape(utf8));
 }
 
