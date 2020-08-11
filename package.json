@@ -1,7 +1,6 @@
 {
   "name": "@ssttevee/u8-utils",
-  "type": "module",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Miscellaneous functions for working with Uint8Arrays",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
@@ -10,6 +9,7 @@
     "lib/**/*"
   ],
   "scripts": {
+    "prepack": "npm run build",
     "build": "tsc && mv lib/index.js lib/index.mjs && mv lib/index.js.map lib/index.mjs.map && sed -i 's/index.js.map/index.mjs.map/' lib/index.mjs && sed -i 's/index.js/index.mjs/' lib/index.mjs.map && tsc --module commonjs"
   },
   "repository": {
