@@ -1,6 +1,6 @@
 {
   "name": "@ssttevee/u8-utils",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Miscellaneous functions for working with Uint8Arrays",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
